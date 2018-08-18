@@ -33,5 +33,5 @@ $('#slideNav').swipeNav({
 [MIT](https://github.com/Restoration/jQuery-Plugin-SwipeNav/blob/master/LICENCE)
 
 ## Author
-[RyotArch](https://github.com/Restoration)
-[Ryota.Y](http://developer-ryota.com)
+[RyotArch](https://github.com/Restoration)  
+[Ryota.Y](http://developer-ryota.com)  
