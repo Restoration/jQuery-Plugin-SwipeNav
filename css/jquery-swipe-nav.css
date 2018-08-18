@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+#swipeNav{
+	width: 240px;
+	color: #ffffff;
+	background: #494949; /* Old browsers */
+	background: -moz-linear-gradient(top, #494949 0%, #4d4d4d 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #494949 0%,#4d4d4d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #494949 0%,#4d4d4d 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow: -6px 0px 2px 0 rgba(30, 30, 30,0.2) inset;
+    -moz-box-shadow: -6px 0px 2px 0 rgba(30, 30, 30,0.2) inset;
+    box-shadow: -6px 0px 2px 0 rgba(30, 30, 30,0.2) inset;
+    -webkit-overflow-scrolling: touch;
+}
+#swipeNav li{
+	list-style-position: inside;
+	list-style-type: none;
+	border-bottom: solid 1px #ffffff;
+}
+#swipeNav a{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	-moz-transition: background 0.7s linear;
+	-webkit-transition: background 0.7s linear;
+	transition: background 0.7s linear;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#swipeNav a:hover{
+	background: rgba(0, 140, 152, 1);
+}
+#menuBtn{
+	cursor: pointer;
+}
