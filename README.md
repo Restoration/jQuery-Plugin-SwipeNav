@@ -34,4 +34,4 @@ $('#slideNav').swipeNav({
 
 ## Author
 [RyotArch](https://github.com/Restoration)  
-[Ryota.Y](http://developer-ryota.com)  
+[Ryota.Y](https://www.developer-ryota.com)  
